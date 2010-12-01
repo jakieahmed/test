@@ -1,0 +1,63 @@
+	Configure Name and Email
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+	Initialise a repository:
+$ git init
+
+	Ading a file
+$ git add README.txt
+$ git commit -m 'initial project version'
+
+
+	To view the log of what has been changed
+$ git log --pretty=format:"%h - %an, %ar : %s"
+	OR
+$ git log --stat
+
+	To add a branch( another form of having same copy with two version of commits) http://progit.org/book/ch3-2.html
+	Initially you have master, which is the current user. Beliw testing is the new user for branching
+$ git branch testing //creates a new branch called testing
+$ git checkout testing //takes the user out of this branch and locates it to master
+	OR
+$ git checkout -b testing //takes you out of the current branch and makes a new branch called testing
+
+	When worked on one branch it may need to be merged then deleted
+$ git merge testing
+
+	To delete a branch
+$ git branch -d testing
+
+	All the branches
+$ git branch
+
+	To see the last commit on each branch
+$ git branch -v
+
+	If you have saved the file and then decided to undo the changes. This is before the committing. If committed then it cannot be undoned
+$ git status
+	This will say changes require to be committed then 
+$ git checkout -- database.php
+	To check the difference before committing
+$ git diff
+
+	Shows you the interactive option
+$ git add -i
+/********************************************************
+	Get a copy of the server files
+$ git clone <<link>>
+
+	To push the branch to the remote server
+$ git push (remote) (branch)
+
+OR 
+
+	To push your local serverfix branch to the awesomebranch branch on the remote project
+$ git push origin serverfix:awesomebranch
+
+/*********************************************************
+Often, when you’ve been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don’t want to do a commit of half-done work just so you can get back to this point later.
+
+
+
+
