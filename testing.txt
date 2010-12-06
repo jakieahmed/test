@@ -1,5 +1,14 @@
 this is for testing
 edited in github
+<<<<<<< HEAD
 John added this
 
 john added for the second time
+=======
+<<<<<<< HEAD
+
+jessica added this
+=======
+John added this
+>>>>>>> ec010f189abc250d2aec8f9585399934847b0058
+>>>>>>> 02947958d9bbec3a66d7462f2ed96499ab8ac959
