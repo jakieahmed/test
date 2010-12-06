@@ -1,6 +1,7 @@
 this is for testing
 edited in github
 <<<<<<< HEAD
+<<<<<<< HEAD
 John added this
 
 john added for the second time
@@ -17,3 +18,7 @@ now its jessica's time
 =======
 >>>>>>> 02947958d9bbec3a66d7462f2ed96499ab8ac959
 >>>>>>> f819db7e11d0668efde0c681dcaaa649bc741374
+=======
+
+now i have added this locally
+>>>>>>> a3ba1c84f215d56fc0909cd5f56a6287152c7a35
