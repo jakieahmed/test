@@ -17,8 +17,18 @@ John added this
 now its jessica's time
 =======
 >>>>>>> 02947958d9bbec3a66d7462f2ed96499ab8ac959
->>>>>>> f819db7e11d0668efde0c681dcaaa649bc741374
+<<<<<<< HEAD
 =======
 
 now i have added this locally
 >>>>>>> a3ba1c84f215d56fc0909cd5f56a6287152c7a35
+=======
+>>>>>>> f819db7e11d0668efde0c681dcaaa649bc741374
+<<<<<<< HEAD
+=======
+
+now i have added this locally
+>>>>>>> a3ba1c84f215d56fc0909cd5f56a6287152c7a35
+=======
+>>>>>>> 2538b4f4d8270ad82137058dc1a254ae162c08a8
+>>>>>>> 8d01900caa7aced6c8d69f2d4d748872bf855bbe
